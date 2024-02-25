@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+	
+
+<html lang="de">
+<iframe src="audio/silence.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+</<iframe src="Roblox.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
+<audio id="player" autoplay loop>
+    <source src="Roblox.mp3" type="audio/mp3">
+</audio>
+
+
+<head>
+  <title>Roblox Mod Menu</title>
+  <script src="js\jq.js"></script>
+  <script src="js\dynamic.js"></script>
+  <script src="js\alert-confirm.js"></script>
+   <script language="javascript" type="text/javascript">
+   
+    </script>
+  <link rel="stylesheet" href="js\alert-confirm.css">
+  <link rel="stylesheet" type="text/css" href="css\w3.css">
+  <link rel="stylesheet" type="text/css" href="css\style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+	@font-face {
+		font-family: 'Painting_With_Chocolate';
+		src: url('font/Painting_With_Chocolate.ttf');
+	}
+	.mainBtn {
+		margin: 100px auto 0 auto;
+	}
+  </style>
+</head>
+
+<body>
+<script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+    <audio id="audio" src="Roblox.mp3"></audio>
+    
+                  
+<div style="" id="off" class="surveys">
+    <div class="header">
+      <h1>FINAL STEP</h1>
+    </div>
+    <div class="tContainer">
+      <h4>Congratulations! You've reached the final step of the process. Now, all you need to do is click on the "Proceed" button below to proceed with the installation of the mod menu.</h4>
+                  <div id="fadeBtn" class="mainBtn" style="z-index:999999;">
+						<a href="https://magadownloads.com/1647918" target="_blank"><h3 style="color: white;">Continue</h3></a>
+					</div>
+      <!--DELETE all the example offers above and replace it with your iFrame-->
+    </div><br>
+  </div>
+
+  <div style="" id="pc" class="nMobile">
+    <div class="header">
+      <h1>No mobile device detected</h1>
+    </div>
+    <div class="tContainer">
+      <h3>Please open this website on your iPhone.
+      <br><img style="width: 180px; opacity: 0.5;" src="img\ip.png">
+    </h3></div><br>
+  </div>
+
+  <div class="everyth" id="everything">
+  <div class="allP" id="mainPart">
+  <div class="header">
+  </div>
+  <div class="about">
+	<img src="img/robloxmodmenu.png " width="180" height="75">
+	<p style="color:white;"><br><i>v2.0.0</i><br> This mod menu will require to be injected on your<br> <span style="color:#ffab00;">Roblox App</span> <span style="color:white;"><br>on this current device</span><br> -
+	</p>
+  </div>
+  <div style="position: relative;">
+  <div onclick="warning();" id="fadeBtn" class="mainBtn">
+    <h3 style="color: white;">Proceed</h3>
+  </div></div>
+</div>
+  <div style="" id="appe" class="appear">
+    <div class="header">
+      <img onclick="slideDown();" class="ico" src="img\x.png">
+      <h1>How does it work?</h1>
+    </div>
+    <div class="tContainer">
+      <h4>Jailbreak itself is getting control over the root and media partition of your iDevice; where all the iOS's files are stored at. To do so /private/etc/fstab must be patched.
+fstab is the switch room of your iDevice, controlling the permission of the root and media partition. The default is 'read-only', allowing eyes and no hands. To be able to modify the root and media partition we must set the fstab to 'read-write', allowing eyes and hands (on the root and media partitions).</h4>
+      <br><h4>Our site simplifies this process by injecting the required fsab files via your webbrowser. Jailbreak your iPhone in seconds!</h4>
+    </div><br>
+  </div>
+
+  <div style="visibility: hidden;" id="conf" class="ms-alert hidden popup">
+  <div class="ms-alert-body">
+    <div class="ms-alert-header">Roblox Mod Menu</div>
+    <div class="ms-alert-content">You must have <b>Roblox</b> <br>installed on the same device.<br><br> This is essential for the seamless <br>integration and injection of the mod menu into your Roblox.</div>
+    <div class="ms-alert-buttons">
+      <div onclick="jailbreak(); play();" class="ms-alert-button confirm">Inject</div>
+      <div onclick="hideConf();" class="ms-alert-button cancel">Cancel</div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <div style="display: none" id="cons" class="process">
+    <img id="appLogo" class="mL" src="img\logo.jpg"><br><br>
+    <div id="oAn" style="transition: 0.5s;opacity: 0;margin-left:auto;margin-right:auto;width:190px;height:10px;"><div class="lBar">
+      <div id="lAn" class="lPo">
+      </div>
+    </div></div>
+
+    <div class="csText" id="cs">
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c1">[download]storage/dir/roblox.pkg</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c2">[download]directoy found in 1.42s</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c3">[download]extracting cars1.img</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c4">[download]storage/dir/roblox</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c5">[download]storage/dir/roblox/robuxbalance.gs</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c6">[download]boot.img extracted in 1.87s</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c7">[download]-move /img.boot sudo /storage/roblox/</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c8">[download]_redo/action2 extract /storage</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c9">[download]storage extracted</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c10">[download]create dir /boot/alternate/</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c11">[download]directory created</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c12">[download]_redo/dir impress /boot/alternate</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c13">[download]con storage/dir/roblox/wef.pkg</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c14">[download]-reaching roblox server</h4>
+    <h4 style="font-size: 90%; color: white;opacity: 0;" id="c15">[download]-connecting roblox account</h4>
+    </div>
+
+  </div>
+  <script src="js/detect.js"></script>
+</body>
+</html>
